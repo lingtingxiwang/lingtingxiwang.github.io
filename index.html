@@ -1,10 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>�����</title>
-</head>
-<body>
-�ҽ�����ܣ���������ʦ��Ӣ����Yolanda����������ǽ��Ҵ�硣
+﻿<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>关于html5 video的连续播放</title>
+   </head> 
+<style type="text/css">
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body video
+{
+	width: 100%;
+    height: 100%;
+}
+</style>
+<body> 
+<video id="video"  width="1920" height="1080" autoplay="" >您的浏览器不支持HTML5的video标签</video> 
+<div id="dg" style="width:1920px;z-index: 9999;position: fixed ! important; left: 0px; top: 0px;">
+<marquee>通知：接上级主管部门指示......</marquee>
+</div>
+
 </body>
-</html>
+ </html> 
+<script> 
+var video_list=['videos/1.mp4','videos/2.mp4','videos/3.mp4','videos/4.mp4','videos/5.mp4','videos/6.mp4','videos/7.mp4','videos/8.mp4'];//初始化播放列表
+ video_length=video_list.length;//播放列表的长度 
+ var curr=0;//当前播放的视频
+ var video=document.getElementById('video');
+ video.addEventListener('ended',play); 
+ play();
+ //video.requestFullscreen();
+ function play(){ video.src=video_list[curr];
+ video.load();//若视频很短，加载完后再播放，监听canplaythrough事件即可  
+video.play(); 
+curr++; 
+if(curr>=video_length){
+ curr=0;//播放完后，重新播放
+　　　　}
+    }
+</script>
