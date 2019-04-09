@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<goods>
+    <add name="热菜1" price="1.01" category="推荐" icon="icons/热菜.png"/>
+    <add name="凉菜1" price="0.01" category="推荐" icon="icons/凉菜.png"/>
+	<add name="汤羹1" price="0.01" category="推荐" icon="icons/汤羹.png"/>
+	<add name="主食1" price="0.01" category="推荐" icon="icons/主食.png"/>
+	<add name="火锅1" price="0.01" category="推荐" icon="icons/火锅.png"/>
+	<add name="小吃1" price="0.01" category="推荐" icon="icons/小吃.png"/>
+	<add name="饮品1" price="0.01" category="推荐" icon="icons/饮品.png"/>
+    <add name="热菜8" price="0.01" category="推荐" icon="icons/热菜.png"/>
+	<add name="热菜9" price="22.01" category="推荐" icon="icons/热菜.png"/>
+	<add name="热菜新疆大盘鸡10" price="30.01" category="推荐" icon="icons/热菜.png"/>
+	
+    <add name="热菜1" price="1.01" category="热菜" icon="icons/热菜.png"/>
+    <add name="热菜2" price="2.01" category="热菜" icon="icons/热菜.png"/>
+    <add name="热菜3" price="3.01" category="热菜" icon="icons/热菜.png"/>
+    <add name="热菜4" price="4.01" category="热菜" icon="icons/热菜.png"/>
+    <add name="热菜5" price="10.01" category="热菜" icon="icons/热菜.png"/>
+    <add name="热菜6" price="100.01" category="热菜" icon="icons/热菜.png"/>
+    <add name="热菜7" price="0.01" category="热菜" icon="icons/热菜.png"/>
+    <add name="热菜8" price="0.01" category="热菜" icon="icons/热菜.png"/>
+	<add name="热菜9" price="22.01" category="热菜" icon="icons/热菜.png"/>
+	<add name="热菜新疆大盘鸡10" price="30.01" category="热菜" icon="icons/热菜.png"/>
+	
+	<add name="凉菜1" price="0.01" category="凉菜" icon="icons/凉菜.png"/>
+	<add name="汤羹1" price="0.01" category="汤羹" icon="icons/汤羹.png"/>
+	<add name="主食1" price="0.01" category="主食" icon="icons/主食.png"/>
+	<add name="火锅1" price="0.01" category="火锅" icon="icons/火锅.png"/>
+	<add name="小吃1" price="0.01" category="小吃" icon="icons/小吃.png"/>
+	<add name="饮品1" price="0.01" category="饮品" icon="icons/饮品.png"/>
+</goods>
